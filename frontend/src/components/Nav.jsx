@@ -34,10 +34,9 @@ function Nav() {
         <li className="lg:inline-block  lg:ml-10 ml-5 lg:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
           <Link
             to="/home"
-            className="text-#14252F cursor-pointer font-Barlow font-normal text-sm inline-block lg:py-5 py-3"
+            className="text-#14252F cursor-pointer font-Raleway font-normal text-sm inline-block lg:py-5 py-3"
             onClick={() => setNavOpen(!navOpen)}
           >
-            <span className="font-bold mr-1.5">01</span>
             Home
           </Link>
         </li>
@@ -45,10 +44,9 @@ function Nav() {
         <li className="lg:inline-block  lg:ml-10 ml-5 lg:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
           <Link
             to="/about"
-            className="text-#14252F cursor-pointer font-Barlow font-normal text-sm inline-block lg:py-5 py-3"
+            className="text-#14252F cursor-pointer font-Raleway font-normal text-sm inline-block lg:py-5 py-3"
             onClick={() => setNavOpen(!navOpen)}
           >
-            <span className="font-bold mr-1.5">02</span>
             About
           </Link>
         </li>
@@ -56,10 +54,9 @@ function Nav() {
         <li className="lg:inline-block  lg:ml-10 ml-5 lg:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
           <Link
             to="/skills"
-            className="text-#14252F cursor-pointer font-Barlow font-normal text-sm inline-block lg:py-5 py-3"
+            className="text-#14252F cursor-pointer font-Raleway font-normal text-sm inline-block lg:py-5 py-3"
             onClick={() => setNavOpen(!navOpen)}
           >
-            <span className="font-bold mr-1.5">03</span>
             Skills
           </Link>
         </li>
@@ -67,20 +64,18 @@ function Nav() {
         <li className="lg:inline-block  lg:ml-10 ml-5 lg:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
           <Link
             to="/portfolio"
-            className="text-#14252F cursor-pointer font-Barlow font-normal text-sm inline-block lg:py-5 py-3"
+            className="text-#14252F cursor-pointer font-Raleway font-normal text-sm inline-block lg:py-5 py-3"
             onClick={() => setNavOpen(!navOpen)}
           >
-            <span className="font-bold mr-1.5">04</span>
             Portfolio
           </Link>
         </li>
         <li className="lg:inline-block  lg:ml-10 ml-5 lg:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
           <Link
             to="/contact"
-            className="text-#14252F cursor-pointer font-Barlow font-normal text-sm inline-block lg:py-5 py-3"
+            className="text-#14252F cursor-pointer font-Raleway font-normal text-sm inline-block lg:py-5 py-3"
             onClick={() => setNavOpen(!navOpen)}
           >
-            <span className="font-bold mr-1.5">04</span>
             Contact
           </Link>
         </li>

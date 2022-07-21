@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "class",
   theme: {
     screens: {
@@ -24,8 +24,8 @@ module.exports = {
       blue: "#4A9CCD",
     },
     fontFamily: {
-      serif: ["Playfair Display", "serif"],
-      sans: ["Raleway", "sans-serif"],
+      PlayfairDisplay: ["Playfair Display", "serif"],
+      Raleway: ["Raleway", "sans-serif"],
     },
     extend: {},
   },
