@@ -28,14 +28,14 @@ function Nav() {
       />
 
       <ul
-        className={`dark:bg-darkColor lg:text-right w-full h-full duration-500 ease-linear lg:pl-10 lg:static fixed  top-0 lg:h-auto z-10 ${
+        className={`bg-darkColor lg:text-right duration-500 ease-linear lg:pl-10 lg:static fixed  top-0 lg:h-auto z-10 mr-32 ${
           !navOpen ? "right-[-100%]" : "right-0"
         } `}
       >
         <li className="lg:inline-block  lg:ml-10 ml-5 lg:my-0 my-6 border-b-2 border-darkColor hover:border-white duration-300">
           <Link
             to="/home"
-            className="text-middleOrange cursor-pointer font-Raleway font-normal text-sm inline-block lg:py-5 py-3"
+            className="text-middleOrange cursor-pointer font-Raleway font-normal text-base inline-block lg:py-5 py-3"
             onClick={() => setNavOpen(!navOpen)}
           >
             Home
@@ -45,7 +45,7 @@ function Nav() {
         <li className="lg:inline-block  lg:ml-10 ml-5 lg:my-0 my-6 border-b-2 border-darkColor hover:border-white duration-300">
           <Link
             to="/about"
-            className="text-middleOrange cursor-pointer font-Raleway font-normal text-sm inline-block lg:py-5 py-3"
+            className="text-middleOrange cursor-pointer font-Raleway font-normal text-base inline-block lg:py-5 py-3"
             onClick={() => setNavOpen(!navOpen)}
           >
             About
@@ -55,7 +55,7 @@ function Nav() {
         <li className="lg:inline-block  lg:ml-10 ml-5 lg:my-0 my-6 border-b-2 border-darkColor hover:border-white duration-300">
           <Link
             to="/skills"
-            className="text-middleOrange cursor-pointer font-Raleway font-normal text-sm inline-block lg:py-5 py-3"
+            className="text-middleOrange cursor-pointer font-Raleway font-normal text-base inline-block lg:py-5 py-3"
             onClick={() => setNavOpen(!navOpen)}
           >
             Skills
@@ -65,7 +65,7 @@ function Nav() {
         <li className="lg:inline-block  lg:ml-10 ml-5 lg:my-0 my-6 border-b-2 border-darkColor hover:border-white duration-300">
           <Link
             to="/portfolio"
-            className="text-middleOrange cursor-pointer font-Raleway font-normal text-sm inline-block lg:py-5 py-3"
+            className="text-middleOrange cursor-pointer font-Raleway font-normal text-base inline-block lg:py-5 py-3"
             onClick={() => setNavOpen(!navOpen)}
           >
             Portfolio
@@ -74,13 +74,12 @@ function Nav() {
         <li className="lg:inline-block  lg:ml-10 ml-5 lg:my-0 my-6 border-b-2 border-darkColor hover:border-white duration-300">
           <Link
             to="/contact"
-            className="text-middleOrange cursor-pointer font-Raleway font-normal text-sm inline-block lg:py-5 py-3"
+            className="text-middleOrange cursor-pointer font-Raleway font-normal text-base inline-block lg:py-5 py-3"
             onClick={() => setNavOpen(!navOpen)}
           >
             Contact
           </Link>
         </li>
-        <li className="lg:inline-block  lg:ml-10 ml-5 lg:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300" />
       </ul>
     </nav>
   );
