@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "class",
   theme: {
     screens: {
@@ -27,7 +27,16 @@ module.exports = {
       PlayfairDisplay: ["Playfair Display", "serif"],
       Raleway: ["Raleway", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundColor: {
+        primary: "var(--color-bg-primary)",
+        secondary: "var(--color-bg-secondary)",
+      },
+      textColor: {
+        primary: "var(--color-text-primary)",
+        secondary: "var(--color-text-secondary)",
+      },
+    },
   },
   plugins: [],
 };

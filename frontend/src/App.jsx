@@ -12,7 +12,7 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <div className="h-screen bg-center bg-cover">
+      <div className="h-screen w-screen bg-darkColor">
         <Nav />
         <Routes>
           <Route>
