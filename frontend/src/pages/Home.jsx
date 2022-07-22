@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className=" bg-cover bg-center font-Barlow pb-2 p-28 h-screen">
+    <div className=" bg-cover bg-center font-Raleway pb-2 p-28 h-screen">
       <div className="md:container  px-2  pt-5 md:text-left text-center">
         <h1 className="text-2xl  text-white" />
         <div className=" items-center md:justify-between ">
@@ -22,14 +22,14 @@ function Home() {
                 PORTFOLIO
               </li>
             </ul>
-            <h1 className="text-middleOrange w-full font-Bellefair pb-2 text-7xl font-bold">
+            <h1 className="text-middleOrange w-full font-Raleway pb-2 text-7xl font-bold">
               Hi, I'm Marie,
             </h1>
-            <h1 className="text-middleOrange w-full font-Bellefair pb-2 text-7xl font-bold">
+            <h1 className="text-middleOrange w-full font-Raleway pb-2 text-7xl font-bold">
               Web Developer
             </h1>
-            <span className="text-[#d2d8f9] text-sm" />
-            <p className="text-[#d2d8f9] font-extralight text-xl md:w-2/3 md:pl-1 leading-6 tracking-wide pb-10 border-b-[0.5px] border-[#ffffff66] ">
+            <span className="text-purple text-sm" />
+            <p className="text-purple font-extralight text-xl md:w-2/3 md:pl-1 leading-6 tracking-wide pb-10 border-b-[0.5px] border-[#ffffff66] ">
               Front End Back End Developer Junior
             </p>
             <div className="flex md:justify-between justify-around lg:w-1/2 w-auto pt-10">

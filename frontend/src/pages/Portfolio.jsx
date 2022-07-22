@@ -6,7 +6,7 @@ function Portfolio() {
       <div className="container">
         <div className="flex flex-wrap justify-center -mx-4">
           <div className="w-full px-4">
-            <div className="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
+            <div className="text-center mx-auto mb-[60px] lg:mb-20 max-w-[570px]">
               <span className="font-semibold text-lg text-primary mb-2 block">
                 Works
               </span>

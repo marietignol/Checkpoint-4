@@ -2,7 +2,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="bg-darkColor flex justify-center text-middleOrange py-20 lg:py-[120px] overflow-hidden relative z-10 font-Raleway">
+    <div className="bg-darkColor flex justify-center text-middleOrange py-20  overflow-hidden relative z-10 font-Raleway">
       <div className="md:container  px-2  pt-5 md:text-left text-center">
         <div className="max-w-[570px] mb-0 md:text-center lg:mb-0 lg:text-center">
           <h1 className="text-middleOrange w-full font-Raleway pb-2 text-3xl font-bold">
