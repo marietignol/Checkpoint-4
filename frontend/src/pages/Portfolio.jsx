@@ -23,7 +23,7 @@ function Portfolio() {
                 Portfolio
               </h2>
 
-              <ul className="text-white pb-4 text-sm">
+              <ul className=" pb-4 text-sm text-purple">
                 <li className="inline-block cursor-pointer md:mr-8 md:mx-0 mx-4 md:ml-2">
                   ALL PROJECT
                 </li>
