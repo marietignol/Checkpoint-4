@@ -8,7 +8,7 @@ function About() {
           About Me
         </h1>
       </div>
-      <div className="md:container flex flex-row-reverse px-2 md:flex-end  pt-5 md:text-left text-center">
+      <div className="md:container flex flex-row-reverse px-2 pt-5 md:text-left text-center">
         <span className="text-[#d2d8f9] text-sm" />
         <p className="text-[#d2d8f9] font-extralight text-sm md:w-2/3 md:pl-1 leading-6 tracking-wide pb-10 border-b-[0.5px] border-[#ffffff66] ">
           See our planet as you’ve never seen it before. A perfect relaxing trip

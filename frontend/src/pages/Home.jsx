@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="bg-hero-bg md:h-screen bg-cover bg-center font-Barlow pb-2 p-28 h-screen">
+    <div className=" bg-cover bg-center font-Barlow pb-2 p-28 h-screen">
       <div className="md:container  px-2  pt-5 md:text-left text-center">
         <h1 className="text-2xl  text-white" />
         <div className=" items-center md:justify-between ">
@@ -52,12 +52,12 @@ function Home() {
                   <img
                     src="./src/assets/icon-git1.png"
                     alt=""
-                    className="h-9"
+                    className="h-7"
                   />
                   <img
                     src="./src/assets/icon-linkedin.png"
                     alt=""
-                    className="h-9"
+                    className="h-7"
                   />
                 </div>
               </div>
