@@ -49,7 +49,6 @@ function Skills() {
                 </p>
               </li>
             </ol>
-            
           </div>
         </div>
       </div>
