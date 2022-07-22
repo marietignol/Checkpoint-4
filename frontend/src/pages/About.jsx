@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bg-hero-bg md:h-screen bg-cover bg-center font-Barlow pb-2 p-28 h-screen">
+    <div className="bg-hero-bg md:h-screen bg-cover bg-center font-Raleway pb-2 p-28 h-screen">
       <div className=" items-center md:justify-between ">
         <h1 className="text-middleOrange text-center w-full font-Raleway pb-2 text-3xl font-bold">
           About Me
